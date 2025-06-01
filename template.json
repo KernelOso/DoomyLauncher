@@ -1,0 +1,14 @@
+{
+    "iwad": {
+        "dir": "iwad dir here",
+        "file": "iwad file here"
+    },
+    "mods": [
+        {
+            "dir": "mod dir here",
+            "file": "mod file here"
+        }
+    ],
+    "config": "config file here(only name)",
+    "saveDir": "save dir here(only name)"
+}
