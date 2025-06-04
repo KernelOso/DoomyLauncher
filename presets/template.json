@@ -1,0 +1,8 @@
+{
+    "iwad": "{{iwads}}The Ultimate DOOM/DOOM.WAD",
+    "mods": [
+        "{{mods}}IDKFA/IDKFA.wad"
+    ],
+    "config": "{{config}}global.cfg ",
+    "saveDir": "{{saves}}doom.id.doom1.ultimate"
+}

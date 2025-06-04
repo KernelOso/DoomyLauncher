@@ -1,0 +1,6 @@
+{
+    "iwad": "{{shareware}}DOOM1.WAD",
+    "mods": [],
+    "config": "{{shareware}}shareware.cfg",
+    "saveDir": "{{shareware}}saves"
+}
