@@ -32,13 +32,15 @@ class CONFIG:
 config:CONFIG = CONFIG()
 
 configReader = configparser.ConfigParser()
-configReader.read('config.cfg')
+
 
 def loadConfig():
     global config
     
     # get the Script Path
     config.scriptPath = os.path.dirname(os.path.abspath(__file__))
+    
+    configReader.read(os.path.join(config.scriptPath ,'config.cfg'))
     
     presets_local_dir = configReader.get('settings' , 'presets_local_dir' , fallback='')
     if presets_local_dir.strip():
